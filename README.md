@@ -1,10 +1,10 @@
 # MBAI5310G-AI-Programming-NishaNaresh
 
 ## Student Information
-Name: Nisha Naresh
-Course: MBAI 5310G – AI Programming
-Term: Spring 2026
-Instructor: Zahra Atf
+- Name: Nisha Naresh
+- Course: MBAI 5310G – AI Programming
+- Term: Spring 2026
+- Instructor: Zahra Atf
 
 ## Repository Overview
 This repository contains my weekly applied coding tasks and final project for MBAI
@@ -15,7 +15,7 @@ evaluation, GitHub-based documentation, and responsible AI reflection.
 - assignments/: weekly applied tasks
 - final_project/: final project notebook, paper, outputs, and documentation
 - resources/: optional notes or supporting resources
-- 
+  
 ## Tools Used
 - Python
 - Jupyter Notebook / Google Colab
@@ -23,7 +23,7 @@ evaluation, GitHub-based documentation, and responsible AI reflection.
 - scikit-learn
 - TensorFlow / Keras
 - Other libraries as needed
-- 
+  
 ## Responsible AI Note
 All work in this repository is for educational purposes. I will not upload confidential,
 private, sensitive, copyrighted, or restricted datasets. When using AI tools for

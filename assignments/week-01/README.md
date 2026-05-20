@@ -1,5 +1,5 @@
 
-# Week [Number] – [Topic]
+# Week [1] – [Github Repository]
 
 ## Task Overview
 Briefly describe the purpose of this weekly task.

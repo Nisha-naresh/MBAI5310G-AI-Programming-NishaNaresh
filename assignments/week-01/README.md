@@ -1,11 +1,11 @@
 
-# Week [1] – [Github Repository]
+# Week [2] – [ML Pipeline]
 
 ## Task Overview
 Briefly describe the purpose of this weekly task.
 
 ## Files in This Folder
-- [notebook_name].ipynb: main notebook for the task
+- AI_programming_week2.ipynb: main notebook for the task
 - outputs/: figures, screenshots, or result files if applicable
 - data_description.md: dataset source and notes if applicable
 - 

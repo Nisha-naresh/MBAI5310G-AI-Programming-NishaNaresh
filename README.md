@@ -28,7 +28,7 @@ evaluation, GitHub-based documentation, and responsible AI reflection.
 All work in this repository is for educational purposes. I will not upload confidential,
 private, sensitive, copyrighted, or restricted datasets. When using AI tools for
 support, I will disclose how they were used and verify the final work.
-
+```
 MBAI5310G-AI-Programming-Nisha-Naresh/
 │
 ├── README.md
@@ -66,3 +66,4 @@ MBAI5310G-AI-Programming-Nisha-Naresh/
 │
 └── resources/
     └── optional_notes.md
+```

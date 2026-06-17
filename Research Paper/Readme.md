@@ -1,133 +1,51 @@
+# Explainable Multimodel AI for Clinical Prediction and Patient-Specific Medical Decision Support
 
-# Explainable Multimodal AI for Clinical Prediction and Patient-Specific Medical Decision Support
-
-Final project for **MBAI 5310G, AI Programming**.
+**Final Paper, MBAI 5310G AI Programming**
 
 ## Student Information
 - **Name:** Nisha Naresh
-- **Course:** MBAI 5310G, AI Programming
-- **Term:** Spring 2026
+- **Student ID:** 101008896
+- **University:** Ontario Tech University
+- **Course:** AI Programming (MBAI 5310G)
 - **Instructor:** Zahra Atf
 
-## Project Overview
-This project develops and evaluates an **explainable multimodal AI system** for patient-specific clinical prediction. In plain terms, the system looks at several kinds of patient data at once (structured records, clinical notes, and medical images or signals), predicts a clinical outcome such as deterioration, and then explains *why* it made that prediction for the individual patient. The study measures the prediction quality, the reliability of the explanations, and whether those explanations actually help clinicians trust and use the result.
+## Summary
+This paper proposes an explainable multimodal AI framework that fuses medical imaging with structured electronic health record (EHR) data to predict patient outcomes, and that generates patient-specific, clinician-readable explanations to support decision-making at the bedside. It is an observational, retrospective, data-science study using de-identified public data.
 
-The work is framed as an empirical, mixed-methods data-science study. It combines a computational strand (model building and technical evaluation) with a human-centered strand (a structured study of clinician trust and usefulness).
+## Paper Outline
+1. **Introduction:** AI and ML in healthcare, the accuracy versus interpretability barrier, and why explainable multimodal AI matters [1], [2], [3], [10], [11].
+2. **Clinical Background:** clinical reasoning is multimodal; deep fusion models are accurate but behave as black boxes, and population-level importance is not patient-specific [12], [13], [14], [17].
+3. **Problem Statement:** the gap between predictive performance and clinical usability; multimodal models rarely produce patient-specific, clinician-readable explanations [4], [6], [7], [9], [11].
+4. **Literature Review:** four themes, multimodal prediction, XAI methods, trust and human-AI interaction, and critical or ethical perspectives [1] to [17].
+5. **Research Gap:** unimodal focus, little testing of clinical utility, scarce patient-specific explanation, and no standard way to evaluate XAI quality [2], [4], [7], [8], [10], [12], [13].
+6. **Aim and Objectives:** build and evaluate an explainable multimodal framework with patient-specific explanations, set out as four objectives from literature synthesis to evaluation.
+7. **Research Questions and Hypotheses:** four questions on fusion design, the best XAI techniques, the effect on clinician trust, and the right evaluation criteria.
+8. **Related Work in XAI and Healthcare:** fusion reliably improves prediction and explanation links to trust, but the two lines of work rarely meet [1], [4], [7], [8], [11], [12], [13] to [17].
+9. **Clinical Decision Support System:** a planned single-patient view showing the predicted outcome with the features and image regions that drove it.
+10. **Multimodal Data Sources:** at least two modalities, imaging (chest X-ray or CT) and structured EHR data (vital signs, laboratory values, demographics) [13], [15], [17].
+11. **XAI Methodology:** SHAP for the tabular stream, Grad-CAM or attention maps for the imaging stream, and LIME as a consistency check, combined into one patient-specific cross-modal explanation [11], [12].
+12. **Model Architecture:** a CNN image encoder and a feed-forward tabular encoder joined by intermediate fusion, with early and late fusion as baselines [13], [14], [17].
+13. **Model Training and Optimization:** train, validation, and test split, regularization (dropout, early stopping), class-imbalance handling, and recorded settings for reproducibility.
+14. **Evaluation Metrics:** prediction (accuracy, AUROC, F1, sensitivity, specificity) and explanation (faithfulness, stability, cross-modal agreement), plus clinician-style review [4], [8], [10].
+15. **Conceptual Framework:** six linked constructs from multimodal inputs through fusion, prediction, the XAI layer, explanation, and clinician interpretation, to trust and decision quality, with explainability acting as a moderator [1], [7].
+16. **Clinical Methodology:** observational, retrospective, secondary anonymized data; five steps from data preparation to reporting; a public multimodal dataset such as COVID imaging with clinical variables or a MIMIC-derived cohort [13], [14], [16], [17].
+17. **Expected Contributions:** theoretical (extends the explainability and trust link to the multimodal clinical setting), methodological (one cross-modal patient-specific explanation plus a two-part evaluation), and practical (a usable point-of-care decision-support view) [1], [4], [7], [11].
+18. **Limitations:** dataset generalizability, the difficulty of a formal clinician evaluation in a short project, and the over-confidence risk of plausible explanations [11].
+19. **Future Work:** extend beyond two modalities, validate prospectively with clinicians, test subgroup fairness, and study longer-term effects on clinician behaviour.
+20. **Ethical Considerations:** anonymized public data under existing consent and governance, no re-identification, subgroup fairness checks, and awareness of automation bias [10].
+21. **Timeline:** a June 2026 schedule running from literature review and dataset selection through model building, evaluation, and submission.
+22. **References:** 17 sources in IEEE format.
 
-## Title
-Explainable Multimodal AI for Clinical Prediction and Patient-Specific Medical Decision Support.
-
-## Clinical Background
-Multimodal models that fuse electronic health records, clinical text, imaging, and physiological signals predict outcomes such as ICU admission, deterioration, and mortality with strong performance [2], [13], [15], [16]. Real clinical reasoning is itself multimodal, so fusion mirrors how clinicians work. The problem is that these models are usually opaque, so a clinician is asked to trust a number without seeing the reasoning. Explainable AI is the proposed remedy, but recent evidence shows that explanation does not automatically produce trust [1], [11].
-
-## Problem Statement
-Multimodal models predict well and many explanation methods exist, yet the link between them is weak. Prediction studies treat explanation as an add-on, explanation studies evaluate technical proxies rather than clinician needs, and the assumption that good explanations produce appropriate trust is the very assumption recent work undermines [1], [11]. The problem this project addresses is the absence of an integrated approach that builds a multimodal model, generates patient-specific explanations, and evaluates those explanations for both technical quality and clinician trust on the same system.
-
-## Research Gap
-No study in the reference set develops a multimodal model, attaches a patient-specific explanation layer reporting both feature-level and modality-level contributions, and evaluates that layer jointly on (a) predictive performance, (b) explanation faithfulness and stability, and (c) clinician trust and usefulness, all on one model and one task. Prior contributions are real but partitioned across these three concerns. This project addresses the partition itself.
-
-## Aim and Objectives
-**Aim:** to design, build, and evaluate an explainable multimodal AI system for patient-specific clinical prediction, and to determine when its patient-level explanations improve clinician trust rather than merely accompanying the prediction.
-
-**Objectives:**
-1. Build a multimodal model fusing structured data, clinical text, and at least one further modality, benchmarked against single-modality baselines.
-2. Design a patient-specific explanation layer reporting feature-level and modality-level contributions.
-3. Quantify explanation faithfulness and stability, testing the reliability concern of [11].
-4. Evaluate clinician trust and perceived usefulness through a structured human-centered study, informed by [4] and [7].
-5. Analyse when explanation quality corresponds to appropriate trust, revisiting [1].
-6. Release a reproducible pipeline and evaluation protocol.
-
-## Research Questions and Hypotheses
-**Research questions:**
-1. Does multimodal fusion improve patient-specific prediction over the best single-modality baseline, and at what cost to interpretability?
-2. How faithful and stable are the patient-level explanations, and do these properties differ across modalities?
-3. Do explanations increase appropriate clinician trust and usefulness compared with the prediction alone?
-4. Under what conditions does explanation quality correspond to appropriate trust?
-
-**Hypotheses:**
-- **H1:** Fusion gives significant gains in discrimination and calibration over the best single modality.
-- **H2:** Explanation faithfulness and stability vary by modality, with structured features more stable than imaging.
-- **H3:** A faithful, stable, patient-specific explanation increases appropriate trust over the prediction alone, but the effect is moderated by explanation stability [1].
-
-## Brief Literature Review
-The cited work falls into four streams. Multimodal prediction studies show fusion works: Kizilisik, Terzi, and Candemir [2], Mehta and colleagues [3], Wu and colleagues [13], Chieregato and colleagues [14], Choi and colleagues [15], Shamout and colleagues [16], and Wu and colleagues [17], with the common limitation that explanation is secondary and untested on users. Explanation surveys map the method space: Mesinovic, Watkinson, and Zhu [6], Loh and colleagues [9], Rasheed and colleagues [10], and the XAI 2.0 manifesto of Longo and colleagues [8], which by their nature describe rather than test methods on a task. Trust and human-centered work centres the user: the meta-analysis of Atf and Lewis [1], the clinician-preference study of Xian and colleagues [4], the interaction study of Kim and colleagues [7], and the patient-specific monitoring of Sree Vani and colleagues [12]. Foundational arguments set the stakes: Caruana and colleagues [5] make the case for intelligible models, while Ghassemi, Oakden-Rayner, and Beam [11] caution that post-hoc explanations can be unstable and misleading. This project sits in the space these streams leave open: a single controlled system that measures explanation reliability and clinician response together.
-
-## Conceptual Framework
-The framework links five concepts in a chain: **multimodal input → predictive model → explanation layer → explanation quality → human-decision outcome.** Explanation quality (faithfulness and stability) acts as a mediator, so the model affects clinician trust only through explanations that are faithful and stable. Explanation stability is treated as a moderator on the link between explanation quality and appropriate trust. This mediation structure is what the study tests, and it distinguishes the framework from the common assumption that any explanation yields trust.
-
-## Clinical Methodology
-- **Design:** retrospective, observational computational strand plus a within-subject human-centered strand (prediction alone vs prediction with explanation).
-- **Data:** a public, de-identified critical-care dataset accessed under a credentialed data-use agreement, containing structured measurements, clinical notes, and linked imaging.
-- **Target:** short-horizon clinical deterioration (for example ICU transfer within a fixed window), mirroring [2], [15], [16].
-- **Preprocessing:** per-modality cleaning and encoding, explicit missingness indicators, full version control of every step.
-- **Model:** single-modality baselines, then intermediate and late fusion compared; a partly transparent additive component over structured features in the spirit of [5].
-- **Explanation layer:** patient-specific feature-level and modality-level attributions, with methods matched to modality using [6].
-- **Technical evaluation:** discrimination (AUROC, AUPRC), calibration, and operating points; explanation faithfulness via perturbation tests and stability under input and seed perturbations, addressing [11].
-- **Human-centered evaluation:** clinicians review de-identified cases under both conditions, rating trust, confidence, and usefulness, with appropriate trust computed against whether the model was correct.
-- **Analysis:** mixed-effects models for the trust data and thematic analysis for the interviews.
-
-## Expected Contribution
-- **Theoretical:** sharper evidence on when explanation supports appropriate trust, refining [1] and addressing [11] with direct measurement.
-- **Practical:** a reproducible pipeline for patient-specific multimodal decision support whose explanations are vetted for stability and assessed by clinicians.
-- **Methodological:** an evaluation protocol coupling technical explanation metrics with a clinician trust study on the same model and task, answering the call in [8].
-
-## Ethical Considerations
-- **Privacy and consent:** only de-identified public data under a data-use agreement; no re-identification. Clinician participation is voluntary and informed, with anonymised responses.
-- **Fairness:** performance and explanation quality checked across demographic subgroups and reported transparently.
-- **Responsible use:** the system is decision support, not an autonomous decision-maker; the clinician retains responsibility, guarding against the over-reliance risk in [11].
-- **Approvals:** the clinician strand proceeds only after research ethics board approval, under a documented data governance plan.
-
-## Timeline
-| Phase | Main activities | Duration |
-|-------|-----------------|----------|
-| 1. Scoping and pre-registration | Confirm dataset, define cohort and outcome, pre-register | Weeks 1 to 4 |
-| 2. Data access and preprocessing | Credentialed access, encode modalities, build pipeline | Weeks 4 to 9 |
-| 3. Model development | Baselines and fusion models, select strategy | Weeks 9 to 15 |
-| 4. Explanation layer | Feature and modality attributions, stability tests | Weeks 14 to 19 |
-| 5. Technical evaluation | Prediction and explanation quality, fairness analysis | Weeks 18 to 22 |
-| 6. Ethics and clinician study | Approval, recruitment, trust study | Weeks 16 to 26 |
-| 7. Analysis and synthesis | Mixed-effects and thematic analysis | Weeks 26 to 30 |
-| 8. Writing and dissemination | Paper, code release, presentation | Weeks 28 to 34 |
-
-## Repository Structure
+## Folder Structure
 ```
-final_project/
-│
-├── README.md                       # this file
-├── final_project_notebook.ipynb    # model building, explanation, evaluation
-├── paper/
-│   └── Research_Proposal_Explainable_Multimodal_AI.docx
-├── outputs/
-│   ├── model_comparison_results.csv
-│   ├── explanation_stability_results.csv
-│   └── clinician_study_summary.csv
-├── figures/
-│   ├── conceptual_framework.png
-│   ├── model_performance.png
-│   └── explanation_examples.png
-└── data_description.md             # dataset, access terms, and feature dictionary
+Research Paper/
+├── README.md                     # this outline
+├── Final_Naresh_Nisha.docx       # the full final paper
+└── Final_Naresh_Nisha.pdf        # PDF version for submission
 ```
-
-## Tools Used
-- Python
-- Jupyter Notebook / Google Colab
-- GitHub
-- scikit-learn
-- TensorFlow / Keras
-- Pandas and NumPy
-- Explanation libraries (for example SHAP) and a clinical language model for text encoding
-- Statistical analysis tools for mixed-effects modelling
-- Other libraries as needed
-
-## How to Reproduce
-1. Clone the repository and open `final_project_notebook.ipynb`.
-2. Review `data_description.md` and complete the dataset's credentialed access steps. Raw clinical data is not stored in this repository.
-3. Install dependencies (a `requirements.txt` is provided in the project folder).
-4. Run the notebook sections in order: preprocessing, baselines, fusion model, explanation layer, then evaluation.
-5. Generated tables and figures are written to `outputs/` and `figures/`.
 
 ## Responsible AI Note
-All work in this repository is for educational purposes. I will not upload confidential, private, sensitive, copyrighted, or restricted datasets; clinical data is accessed only under its data-use agreement and is not redistributed here. The system is intended as decision support and not as a replacement for clinical judgment. When using AI tools for support, I disclose how they were used and verify the final work. *(AI assistance was used to help structure and draft documentation and code scaffolding; the analysis, results, and final content were reviewed and verified by the author.)*
+All work is for educational purposes. No confidential, private, sensitive, copyrighted, or restricted data is used; the study relies on de-identified public datasets under their original consent and governance. AI tools were used for drafting and structuring support, and the final content was reviewed and verified by the author.
 
 ## References
 [1] Z. Atf and P. R. Lewis, "Is trust correlated with explainability in AI? A meta-analysis," *IEEE Transactions on Technology and Society*, 2025, doi: 10.1109/TTS.2025.3558448.

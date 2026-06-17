@@ -20,7 +20,7 @@ This repository contains my weekly applied coding tasks and final project for MB
 ## Final Project
 **Explainable Multimodal AI for Clinical Prediction and Patient-Specific Medical Decision Support.**
 
-The final project is a research proposal and accompanying applied work on multimodal AI for healthcare. In plain terms, the system looks at several kinds of patient data at once (structured records, clinical notes, and medical images or signals), predicts a clinical outcome such as deterioration, and then explains *why* it made that prediction for the individual patient. The study evaluates three things that are usually treated separately: predictive performance, the reliability of the explanations (faithfulness and stability), and whether the explanations actually help clinicians trust and use the result. It is framed as an empirical, mixed-methods data-science study, combining a computational strand (model building and technical evaluation) with a human-centered strand (a structured study of clinician trust). Full details, including background, problem statement, research gap, methodology, ethics, timeline, and references, are in the `Research Paper/` folder.
+The final project is a research proposal (paper) on multimodal AI for healthcare. In plain terms, it sets out a system that would look at several kinds of patient data at once (structured records, clinical notes, and medical images or signals), predict a clinical outcome such as deterioration, and then explain *why* it made that prediction for the individual patient. The proposal evaluates three things that are usually treated separately: predictive performance, the reliability of the explanations (faithfulness and stability), and whether the explanations actually help clinicians trust and use the result. It proposes an empirical, mixed-methods data-science study that would combine a computational strand (model building and technical evaluation) with a human-centered strand (a structured study of clinician trust). Full details, including background, problem statement, research gap, methodology, ethics, timeline, and references, are in the `Research Paper/` folder.
 
 ## Repository Structure
 - `assignment/`: weekly applied tasks (week-02 to week-05)
@@ -88,10 +88,8 @@ MBAI5310G-AI-Programming-NishaNaresh/
 │
 └── Research Paper/
     ├── Readme.md
-    ├── final_project_notebook.ipynb        (to be added)
-    ├── paper/                              (proposal document)
-    ├── outputs/                            (to be added)
-    └── figures/                            (to be added)
+    └── paper/
+        └── Research_Proposal_Explainable_Multimodal_AI.docx   (the research paper)
 ```
 
 ## Tools Used

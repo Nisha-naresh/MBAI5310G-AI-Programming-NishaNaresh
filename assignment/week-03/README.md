@@ -1,5 +1,5 @@
 
-# Week Three – Classification Models and Evaluation Metrics
+# Week Three - Classification Models and Evaluation Metrics
 
 ## Task Overview
 This task involves training and comparing two classification models to predict 

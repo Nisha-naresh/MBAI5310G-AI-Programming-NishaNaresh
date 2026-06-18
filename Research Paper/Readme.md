@@ -63,8 +63,7 @@ The full paper moves through: Introduction, Clinical Background, Problem Stateme
 ```
 Research Paper/
 ├── README.md                     # this file
-├── Final_Naresh_Nisha.pdf        # the full proposal (with references)
-└── Final_Naresh_Nisha.docx       # editable version (optional)
+├── Final_Naresh_Nisha.pdf        # the full proposal (with references)     
 ```
 
 ## Key References

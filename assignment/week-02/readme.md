@@ -1,4 +1,4 @@
-# Week Two – End-to-End Machine Learning Pipeline
+# Week Two - End-to-End Machine Learning Pipeline
 
 ## Task Overview
 This task involves building a complete machine learning pipeline from loading 

@@ -1,0 +1,351 @@
+ticket_id,customer_age,age_group,gender,region,customer_type,product_category,support_channel,priority_level,time_to_first_response_minutes,number_of_messages,issue_duration_hours,previous_tickets,agent_satisfaction_score,customer_satisfaction_score,refund_requested,ticket_escalated
+T0001,38,36-50,Male,South,Enterprise,Hardware,Chat,High,72,13,61.7,3,4,1,No,1
+T0002,52,51+,Male,East,Premium,Delivery,Web Form,Low,77,19,90.1,9,4,5,Yes,1
+T0003,63,51+,Male,North,Regular,Account,Phone,Low,136,22,53.7,15,2,2,No,1
+T0004,50,36-50,Female,West,New,Delivery,Chat,Medium,257,17,9.8,15,5,4,No,1
+T0005,62,51+,Male,North,Premium,Software,Email,High,112,9,53.3,14,1,3,No,1
+T0006,44,36-50,Male,North,Regular,Delivery,Web Form,Medium,284,5,56.4,11,2,4,No,1
+T0007,66,51+,Male,North,Regular,Delivery,Web Form,High,464,3,22.0,4,3,3,Yes,1
+T0008,64,51+,Female,North,Regular,Account,Chat,Low,373,4,58.7,15,3,3,No,1
+T0009,28,26-35,Female,East,Premium,Delivery,Web Form,Medium,376,9,55.7,9,2,3,No,1
+T0010,48,36-50,Female,West,Premium,Hardware,Email,Medium,223,8,82.9,8,1,4,No,1
+T0011,25,18-25,Female,West,Regular,Billing,Phone,Low,269,14,88.8,2,4,4,Yes,1
+T0012,59,51+,Female,North,Premium,Delivery,Phone,Low,340,3,69.2,8,4,2,No,1
+T0013,72,51+,Male,East,New,Billing,Web Form,Medium,460,17,90.0,10,5,2,No,1
+T0014,58,51+,Female,North,Premium,Software,Chat,Low,338,8,76.9,13,3,3,No,1
+T0015,39,36-50,Male,East,Regular,Hardware,Chat,Low,353,24,59.4,14,3,3,No,1
+T0016,18,18-25,Male,North,Premium,Delivery,Email,High,390,6,82.5,5,4,4,No,1
+T0017,66,51+,Female,West,Premium,Account,Chat,High,268,19,62.3,3,5,4,No,1
+T0018,60,51+,Female,West,Regular,Billing,Email,Medium,473,20,79.6,2,1,2,No,1
+T0019,38,36-50,Female,East,New,Delivery,Email,Medium,,2,56.5,8,3,3,No,1
+T0020,37,36-50,Male,North,Regular,Account,Chat,Medium,356,2,53.9,6,4,5,No,1
+T0021,64,51+,Male,South,Premium,Hardware,Phone,Medium,446,15,51.1,5,1,4,No,1
+T0022,59,51+,Female,North,New,Delivery,Web Form,Medium,402,8,45.5,9,4,3,No,1
+T0023,23,18-25,Female,North,Regular,Software,Phone,High,48,6,2.0,1,2,4,No,0
+T0024,58,51+,Female,North,Regular,Hardware,Web Form,Low,181,19,85.2,0,5,2,No,1
+T0025,29,26-35,Male,South,Regular,Account,Chat,Medium,387,24,44.8,0,1,4,No,1
+T0026,26,26-35,Female,South,Regular,Billing,Phone,Low,107,2,87.4,3,3,1,Yes,1
+T0027,50,36-50,Female,North,Regular,Software,Web Form,Medium,164,11,28.9,7,3,4,No,1
+T0028,71,51+,Female,North,New,Hardware,Web Form,High,416,24,70.7,15,2,3,No,1
+T0029,37,36-50,Female,South,Enterprise,Account,Email,High,249,14,94.2,8,4,5,No,1
+T0030,43,36-50,Male,West,Regular,Delivery,Email,Medium,164,8,48.8,9,3,1,No,1
+T0031,35,26-35,Male,West,Regular,Billing,Email,Low,183,9,19.3,9,1,3,Yes,1
+T0032,42,36-50,Female,West,Regular,Delivery,Phone,Medium,62,7,67.2,8,4,5,No,0
+T0033,58,51+,Male,East,Premium,Software,Web Form,Medium,111,8,52.5,15,4,3,No,1
+T0034,61,51+,Female,East,New,Account,Web Form,High,47,6,9.7,13,4,3,No,1
+T0035,29,26-35,Male,North,Premium,Hardware,Phone,Low,374,15,73.1,1,4,3,Yes,1
+T0036,55,51+,Male,East,Regular,Delivery,Email,Medium,87,23,69.1,4,1,1,No,1
+T0037,38,36-50,Female,South,New,Hardware,Email,High,360,5,7.2,1,5,2,No,1
+T0038,67,51+,Female,South,Enterprise,Delivery,Email,Medium,201,2,64.3,7,1,2,No,1
+T0039,67,51+,Male,North,Enterprise,Hardware,Web Form,Low,16,1,9.8,8,2,1,No,1
+T0040,67,51+,Male,East,Premium,Hardware,Chat,Low,350,16,78.4,13,1,2,No,1
+T0041,30,26-35,Male,North,New,Delivery,Chat,High,452,13,71.8,0,5,2,No,1
+T0042,45,36-50,Female,North,Regular,Software,Phone,Low,232,10,76.4,15,3,5,Yes,1
+T0043,47,36-50,Male,North,Regular,Account,Web Form,High,312,5,85.4,15,3,3,No,1
+T0044,43,36-50,Female,East,New,Billing,Email,Medium,197,14,24.1,1,5,5,No,1
+T0045,69,51+,Female,South,Regular,Account,Chat,Medium,306,10,16.4,11,4,5,No,1
+T0046,71,51+,Female,West,Regular,Delivery,Phone,Low,298,13,86.9,2,5,1,No,1
+T0047,44,36-50,Female,South,Enterprise,Delivery,Phone,Low,356,3,80.6,2,5,2,No,1
+T0048,20,18-25,Male,North,Premium,Delivery,Email,Medium,18,9,68.8,2,1,4,Yes,1
+T0049,47,36-50,Female,South,New,Hardware,Chat,Medium,381,8,23.5,2,1,2,No,1
+T0050,50,36-50,Female,North,Regular,Delivery,Chat,Low,83,6,70.0,15,2,5,No,1
+T0051,27,26-35,Male,West,New,Account,Phone,Low,360,17,11.2,6,3,5,No,1
+T0052,24,18-25,Male,South,Regular,Delivery,Web Form,Medium,230,8,43.4,0,1,1,No,1
+T0053,31,26-35,Female,North,New,Software,Chat,Low,150,10,5.4,9,1,3,Yes,1
+T0054,23,18-25,Female,West,Regular,Software,Phone,Medium,354,3,58.6,2,2,4,No,1
+T0055,33,26-35,Male,South,New,Hardware,Email,Medium,,4,93.0,2,5,1,No,1
+T0056,69,51+,Male,West,New,Hardware,Email,Medium,343,1,43.4,8,4,1,Yes,1
+T0057,32,26-35,Male,West,Premium,Software,Chat,Medium,213,9,72.6,10,5,2,No,1
+T0058,67,51+,Female,East,Regular,Delivery,Email,Low,205,14,37.7,15,3,2,No,1
+T0059,28,26-35,Female,East,Regular,Account,Email,Low,240,23,86.7,1,1,2,No,1
+T0060,48,36-50,Female,East,Premium,Software,Web Form,Medium,291,2,33.5,13,4,3,No,1
+T0061,45,36-50,Male,South,Regular,Account,Chat,Medium,241,14,41.8,12,1,1,No,1
+T0062,72,51+,Male,East,Enterprise,Billing,Email,Medium,434,24,31.3,3,4,3,No,1
+T0063,21,18-25,Male,South,New,Hardware,Email,High,402,10,66.9,5,3,2,No,1
+T0064,34,26-35,Female,East,Regular,Delivery,Email,Medium,327,14,57.9,9,5,3,No,1
+T0065,53,51+,Female,South,Regular,Billing,Chat,High,139,15,41.9,3,5,4,No,1
+T0066,27,26-35,Female,West,Regular,Account,Phone,Low,242,18,64.6,9,2,4,Yes,1
+T0067,23,18-25,Female,North,Regular,Billing,Phone,Medium,228,9,20.5,3,1,2,No,1
+T0068,57,51+,Male,West,Premium,Account,Chat,High,351,2,57.0,7,4,1,Yes,1
+T0069,61,51+,Female,North,Regular,Hardware,Chat,Low,103,6,60.8,5,2,4,No,1
+T0070,21,18-25,Male,West,Premium,Software,Phone,Low,25,13,6.2,1,2,2,No,1
+T0071,46,36-50,Male,South,Regular,Software,Chat,High,460,5,38.2,7,5,1,No,1
+T0072,29,26-35,Male,South,Premium,Billing,Web Form,High,118,2,19.5,2,2,1,Yes,1
+T0073,37,36-50,Male,South,Premium,Account,Phone,Medium,212,1,92.9,11,3,5,No,1
+T0074,36,36-50,Male,South,Regular,Delivery,Web Form,Medium,26,19,54.3,15,1,1,No,1
+T0075,42,36-50,Male,West,New,Delivery,Chat,Low,287,13,14.5,0,4,2,No,1
+T0076,37,36-50,Female,South,Regular,Billing,Email,Low,234,16,75.5,13,5,3,No,1
+T0077,61,51+,Female,North,Premium,Delivery,Chat,High,107,17,82.1,1,3,4,No,1
+T0078,63,51+,Male,South,Regular,Account,Chat,Low,449,11,89.9,12,5,1,Yes,1
+T0079,49,36-50,Male,West,Enterprise,Billing,Phone,Medium,407,20,86.5,14,2,4,No,1
+T0080,50,36-50,Male,West,Regular,Hardware,Phone,Low,282,8,74.0,2,2,4,No,1
+T0081,50,36-50,Male,South,Regular,Delivery,Chat,Low,282,16,40.5,5,5,1,No,1
+T0082,25,18-25,Male,North,Regular,Hardware,Email,Medium,,4,72.9,0,5,5,Yes,1
+T0083,61,51+,Male,East,Premium,Delivery,Phone,Low,161,6,38.1,0,1,3,No,0
+T0084,64,51+,Female,South,Regular,Delivery,Phone,Medium,121,24,90.2,13,5,1,No,1
+T0085,70,51+,Male,South,Regular,Software,Phone,Medium,6,10,88.5,15,4,4,No,1
+T0086,72,51+,Male,West,New,Billing,Phone,High,65,7,53.8,12,5,1,No,1
+T0087,19,18-25,Male,North,Enterprise,Delivery,Email,Medium,,24,32.9,14,3,5,No,1
+T0088,72,51+,Female,North,New,Billing,Web Form,Low,433,13,45.8,3,2,1,No,1
+T0089,41,36-50,Female,North,New,Hardware,Chat,Low,139,2,33.3,8,4,4,No,0
+T0090,39,36-50,Female,North,Premium,Software,Web Form,Medium,174,16,72.6,15,2,1,No,1
+T0091,40,36-50,Female,West,New,Billing,Phone,Medium,270,10,94.5,8,5,3,No,1
+T0092,46,36-50,Female,West,Regular,Hardware,Chat,Low,41,4,33.8,10,1,4,No,1
+T0093,44,36-50,Female,South,Premium,Account,Phone,Low,471,11,19.5,10,3,3,No,1
+T0094,64,51+,Female,East,Enterprise,Account,Chat,Low,174,8,87.4,14,5,2,No,1
+T0095,49,36-50,Female,East,New,Account,Chat,Medium,126,9,4.9,2,1,5,No,0
+T0096,55,51+,Male,East,Premium,Software,Email,Low,463,13,1.0,6,1,3,No,1
+T0097,72,51+,Male,North,Regular,Hardware,Web Form,Low,410,3,83.8,13,1,5,No,1
+T0098,35,26-35,Female,West,Regular,Account,Phone,Low,137,12,16.4,15,2,3,No,1
+T0099,56,51+,Male,East,Regular,Software,Email,Low,478,3,79.1,15,5,5,No,1
+T0100,38,36-50,Male,North,Regular,Billing,Chat,Low,175,19,42.0,4,5,5,No,1
+T0101,47,36-50,Male,East,Regular,Account,Email,Low,50,20,18.5,11,2,1,Yes,1
+T0102,30,26-35,Female,West,Regular,Hardware,Chat,High,348,10,25.4,3,4,5,No,1
+T0103,21,18-25,Male,North,New,Billing,Web Form,Medium,461,22,37.5,10,2,5,No,1
+T0104,32,26-35,Male,West,Enterprise,Account,Web Form,High,120,8,11.9,3,3,1,Yes,1
+T0105,69,51+,Female,South,Enterprise,Software,Chat,Low,367,15,10.9,10,5,2,No,1
+T0106,66,51+,Male,West,Premium,Billing,Web Form,Low,103,21,57.4,13,4,1,Yes,1
+T0107,19,18-25,Male,South,Regular,Billing,Chat,Medium,36,22,85.4,9,3,3,No,1
+T0108,66,51+,Male,North,New,Software,Email,Low,197,23,30.5,2,3,5,No,1
+T0109,50,36-50,Male,West,Premium,Billing,Phone,Low,166,1,47.4,6,5,3,No,0
+T0110,55,51+,Female,South,New,Hardware,Phone,Medium,368,13,39.2,11,5,5,Yes,1
+T0111,68,51+,Female,North,Enterprise,Delivery,Email,Medium,193,8,41.6,9,5,5,No,1
+T0112,56,51+,Female,South,Regular,Billing,Phone,Low,466,15,33.9,12,1,4,No,1
+T0113,47,36-50,Female,West,Regular,Delivery,Chat,Low,92,3,69.8,1,2,3,No,1
+T0114,63,51+,Female,South,Regular,Billing,Phone,Low,337,7,14.6,3,2,1,Yes,1
+T0115,37,36-50,Female,East,Premium,Billing,Phone,Low,337,3,42.7,13,4,1,No,1
+T0116,66,51+,Male,South,Premium,Billing,Web Form,Low,287,4,45.9,7,1,2,No,1
+T0117,38,36-50,Female,South,Regular,Delivery,Chat,Medium,237,3,24.2,2,2,5,No,0
+T0118,52,51+,Female,West,Premium,Hardware,Email,Medium,480,5,54.7,8,3,5,No,1
+T0119,67,51+,Female,North,Regular,Account,Web Form,Low,244,12,86.5,9,1,2,No,1
+T0120,61,51+,Female,South,New,Account,Web Form,Medium,436,10,82.0,9,3,2,No,1
+T0121,62,51+,Female,East,New,Delivery,Email,Low,478,2,10.2,8,3,5,Yes,1
+T0122,64,51+,Male,North,Premium,Delivery,Phone,Low,,7,20.4,2,4,5,No,0
+T0123,47,36-50,Female,West,Regular,Billing,Chat,High,265,6,36.1,0,3,2,No,1
+T0124,66,51+,Male,West,New,Account,Web Form,Medium,335,24,10.7,4,2,3,Yes,1
+T0125,72,51+,Male,South,Regular,Billing,Web Form,Low,317,4,89.7,3,5,4,No,1
+T0126,63,51+,Female,West,Premium,Hardware,Chat,Low,412,8,65.2,1,2,3,No,1
+T0127,30,26-35,Male,South,Regular,Software,Web Form,High,371,23,59.2,6,3,3,No,1
+T0128,18,18-25,Male,West,New,Account,Chat,Medium,352,11,94.0,3,4,5,No,1
+T0129,60,51+,Female,East,New,Software,Web Form,Medium,342,5,85.3,3,3,5,No,1
+T0130,70,51+,Male,West,New,Billing,Phone,High,145,18,84.3,3,1,3,No,1
+T0131,58,51+,Male,West,Regular,Billing,Chat,Low,187,21,7.6,0,3,2,No,1
+T0132,30,26-35,Female,East,Regular,Software,Email,Low,150,15,2.3,8,3,3,Yes,1
+T0133,35,26-35,Male,South,Regular,Billing,Email,Low,131,22,51.4,2,1,4,No,1
+T0134,66,51+,Male,East,Regular,Hardware,Email,Low,400,13,67.0,6,2,4,No,1
+T0135,19,18-25,Male,South,New,Software,Chat,Low,343,20,49.3,15,4,5,Yes,1
+T0136,30,26-35,Male,South,Premium,Billing,Phone,Medium,33,1,49.1,10,5,4,No,1
+T0137,65,51+,Male,South,Regular,Hardware,Phone,Medium,17,21,55.4,2,3,4,No,1
+T0138,51,51+,Female,North,Regular,Software,Web Form,Low,84,10,87.6,12,5,2,Yes,1
+T0139,56,51+,Female,North,New,Billing,Phone,Low,477,12,90.7,10,5,5,No,1
+T0140,55,51+,Female,East,Enterprise,Software,Phone,Low,381,13,58.0,8,1,1,No,1
+T0141,65,51+,Female,East,Regular,Account,Email,Low,244,13,62.0,0,4,2,Yes,1
+T0142,43,36-50,Male,North,Premium,Hardware,Email,Low,227,1,27.7,2,1,5,No,1
+T0143,24,18-25,Female,South,Regular,Hardware,Phone,Medium,274,15,87.6,8,3,3,No,1
+T0144,47,36-50,Female,East,Regular,Software,Email,Low,179,5,70.4,12,5,3,No,1
+T0145,65,51+,Female,North,New,Billing,Web Form,Medium,48,5,50.7,14,4,5,No,1
+T0146,59,51+,Female,East,Regular,Account,Chat,Low,397,8,85.2,11,4,5,No,1
+T0147,41,36-50,Female,West,Premium,Billing,Web Form,Medium,207,18,66.6,0,2,5,No,1
+T0148,38,36-50,Female,North,New,Account,Chat,Medium,319,5,3.6,9,5,1,No,1
+T0149,57,51+,Female,North,Regular,Hardware,Email,Medium,64,20,87.7,8,1,3,No,1
+T0150,22,18-25,Female,West,Premium,Billing,Email,Low,220,16,90.5,5,4,1,No,1
+T0151,30,26-35,Female,West,Enterprise,Billing,Chat,Low,398,2,69.9,3,1,4,No,1
+T0152,48,36-50,Female,North,New,Account,Phone,High,308,7,84.1,2,5,2,No,1
+T0153,70,51+,Male,West,Enterprise,Hardware,Phone,Medium,474,15,14.7,8,2,5,No,1
+T0154,56,51+,Female,North,Regular,Software,Chat,Low,89,3,20.6,6,2,5,No,1
+T0155,21,18-25,Male,North,Premium,Delivery,Web Form,Medium,65,4,35.8,9,5,4,No,1
+T0156,42,36-50,Female,West,Regular,Billing,Phone,Low,403,12,84.0,0,1,3,No,1
+T0157,20,18-25,Female,North,Regular,Delivery,Email,High,452,22,38.3,5,1,5,No,1
+T0158,49,36-50,Female,West,Premium,Billing,Phone,Low,108,17,33.3,0,2,1,No,1
+T0159,70,51+,Male,North,Regular,Account,Phone,High,8,18,58.3,3,2,4,Yes,1
+T0160,41,36-50,Female,North,Premium,Account,Email,High,386,5,12.9,14,2,4,No,1
+T0161,26,26-35,Female,South,Regular,Hardware,Phone,Low,176,3,88.2,7,1,5,No,1
+T0162,50,36-50,Female,North,Regular,Account,Phone,Low,409,15,10.9,15,4,2,Yes,1
+T0163,27,26-35,Female,West,Premium,Account,Web Form,Medium,427,20,59.2,4,2,5,No,1
+T0164,32,26-35,Female,West,Regular,Delivery,Email,Medium,49,2,26.3,8,3,3,Yes,1
+T0165,65,51+,Male,East,New,Software,Email,High,235,21,89.6,4,5,5,No,1
+T0166,56,51+,Female,South,Regular,Hardware,Email,Low,187,9,42.0,2,1,2,No,1
+T0167,38,36-50,Male,East,Regular,Account,Chat,Low,316,13,73.7,10,4,4,No,1
+T0168,33,26-35,Male,North,New,Delivery,Phone,Medium,221,2,71.4,6,1,4,No,1
+T0169,55,51+,Female,West,New,Hardware,Phone,Low,99,3,42.8,12,1,5,No,1
+T0170,44,36-50,Female,North,Premium,Hardware,Phone,High,10,11,14.9,8,2,4,Yes,1
+T0171,29,26-35,Male,South,New,Software,Chat,Medium,480,14,71.4,10,1,1,No,1
+T0172,28,26-35,Female,North,Regular,Billing,Chat,Low,51,23,39.9,5,5,3,No,1
+T0173,38,36-50,Female,East,New,Billing,Phone,High,250,2,44.9,4,2,2,No,1
+T0174,66,51+,Male,South,Regular,Account,Chat,Low,21,12,49.3,4,2,1,No,1
+T0175,36,36-50,Male,South,Regular,Hardware,Phone,Low,76,20,9.2,6,5,1,Yes,1
+T0176,32,26-35,Male,East,Regular,Delivery,Email,Medium,329,17,77.7,6,2,4,No,1
+T0177,45,36-50,Male,West,Regular,Billing,Chat,Medium,323,23,58.7,14,1,4,Yes,1
+T0178,36,36-50,Female,West,Enterprise,Billing,Chat,Medium,118,16,51.2,13,5,1,No,1
+T0179,69,51+,Female,North,New,Billing,Web Form,High,306,8,82.7,9,1,4,No,1
+T0180,66,51+,Male,South,Regular,Hardware,Phone,High,189,11,39.8,15,4,5,No,1
+T0181,31,26-35,Male,East,Premium,Account,Phone,Low,416,24,34.2,15,2,3,No,1
+T0182,72,51+,Female,North,New,Account,Email,Medium,29,24,14.8,14,1,2,No,1
+T0183,45,36-50,Female,West,New,Hardware,Web Form,Medium,290,17,75.5,15,3,1,Yes,1
+T0184,48,36-50,Female,South,Regular,Account,Web Form,Medium,394,17,15.3,14,5,5,No,1
+T0185,27,26-35,Male,South,Regular,Hardware,Email,High,327,3,83.9,8,4,4,Yes,1
+T0186,59,51+,Female,South,Premium,Account,Web Form,Low,377,13,12.3,8,4,5,No,1
+T0187,41,36-50,Male,West,Regular,Software,Email,High,74,11,58.1,15,2,2,No,1
+T0188,31,26-35,Female,East,Regular,Delivery,Chat,Low,442,5,62.7,10,2,4,No,1
+T0189,44,36-50,Male,West,Regular,Software,Chat,High,458,18,27.7,2,5,2,No,1
+T0190,31,26-35,Male,North,Enterprise,Hardware,Web Form,High,352,24,85.2,4,3,5,No,1
+T0191,36,36-50,Female,West,Enterprise,Software,Web Form,Medium,21,23,45.2,15,4,3,Yes,1
+T0192,31,26-35,Female,East,New,Hardware,Phone,Medium,187,3,17.2,6,5,3,No,1
+T0193,67,51+,Female,East,Regular,Hardware,Web Form,Low,332,7,33.9,11,2,1,Yes,1
+T0194,37,36-50,Male,East,Regular,Hardware,Chat,High,141,9,24.7,11,2,5,Yes,1
+T0195,34,26-35,Female,North,Premium,Delivery,Chat,Low,315,13,29.8,13,3,3,No,1
+T0196,70,51+,Male,North,Premium,Hardware,Phone,Medium,194,9,11.3,1,4,5,No,0
+T0197,37,36-50,Female,West,Premium,Billing,Web Form,Low,353,24,70.6,13,5,4,Yes,1
+T0198,36,36-50,Female,East,Premium,Billing,Chat,Low,430,5,73.0,4,1,4,No,1
+T0199,45,36-50,Female,North,New,Billing,Phone,Low,217,4,30.0,3,1,2,No,1
+T0200,57,51+,Female,South,New,Billing,Email,Low,264,5,76.3,3,2,4,Yes,1
+T0201,66,51+,Female,South,Regular,Software,Email,Medium,188,3,44.7,1,2,5,No,0
+T0202,69,51+,Male,West,Regular,Hardware,Web Form,Low,147,9,22.6,15,3,2,No,1
+T0203,41,36-50,Male,West,New,Account,Email,Medium,334,10,0.8,13,5,5,No,1
+T0204,44,36-50,Female,North,Regular,Account,Web Form,Medium,237,15,36.0,3,3,4,Yes,1
+T0205,72,51+,Female,West,Regular,Software,Email,Medium,117,15,69.9,10,2,5,No,1
+T0206,28,26-35,Male,West,New,Hardware,Web Form,Medium,84,8,37.0,14,5,1,No,1
+T0207,47,36-50,Male,West,Regular,Delivery,Phone,Medium,74,9,64.1,13,1,3,No,1
+T0208,59,51+,Male,East,New,Account,Web Form,Medium,106,2,56.5,11,3,1,Yes,1
+T0209,29,26-35,Female,East,Regular,Delivery,Chat,High,269,15,25.4,8,2,1,No,1
+T0210,65,51+,Male,South,Enterprise,Billing,Email,Low,198,2,85.9,6,2,3,No,1
+T0211,28,26-35,Female,West,New,Hardware,Chat,Medium,215,17,49.3,14,2,2,No,1
+T0212,46,36-50,Female,West,Enterprise,Software,Web Form,Medium,16,8,85.1,14,5,2,No,1
+T0213,51,51+,Male,North,Regular,Billing,Email,Low,270,8,52.6,0,5,1,No,1
+T0214,45,36-50,Male,South,Regular,Account,Email,Low,101,22,74.2,0,4,4,No,1
+T0215,46,36-50,Female,South,Premium,Hardware,Web Form,Medium,50,10,36.2,15,2,1,No,1
+T0216,52,51+,Female,East,New,Hardware,Web Form,Medium,301,21,44.4,11,2,1,Yes,1
+T0217,55,51+,Male,South,New,Billing,Web Form,Medium,427,22,3.0,13,3,2,No,1
+T0218,33,26-35,Male,South,Regular,Hardware,Chat,Low,56,10,55.4,3,3,5,No,1
+T0219,24,18-25,Male,East,New,Software,Email,Low,144,19,95.7,12,4,4,No,1
+T0220,36,36-50,Female,South,New,Software,Web Form,Low,129,15,19.3,0,5,1,No,1
+T0221,37,36-50,Female,West,Regular,Hardware,Email,Low,415,6,13.3,6,1,5,No,1
+T0222,69,51+,Female,West,Premium,Billing,Chat,Low,5,10,49.1,5,5,3,No,1
+T0223,37,36-50,Male,East,Enterprise,Hardware,Chat,Medium,191,3,74.7,4,1,5,No,1
+T0224,49,36-50,Female,West,Regular,Account,Phone,Low,26,8,75.8,9,1,1,No,1
+T0225,28,26-35,Female,East,Enterprise,Billing,Chat,Low,55,2,31.4,7,4,4,No,0
+T0226,71,51+,Female,North,New,Account,Email,High,286,3,60.6,9,5,4,No,1
+T0227,31,26-35,Male,West,New,Hardware,Email,Low,316,17,71.5,3,3,2,Yes,1
+T0228,53,51+,Female,West,Enterprise,Hardware,Chat,Medium,6,16,9.8,8,5,3,No,1
+T0229,47,36-50,Female,South,Regular,Billing,Chat,Medium,316,23,27.1,4,3,5,No,1
+T0230,60,51+,Female,South,Regular,Billing,Phone,Medium,,10,28.8,7,5,4,Yes,1
+T0231,60,51+,Male,South,Regular,Hardware,Chat,Low,80,9,93.9,4,1,4,Yes,1
+T0232,26,26-35,Male,East,Regular,Delivery,Phone,Medium,300,7,16.3,8,1,1,Yes,1
+T0233,18,18-25,Male,East,Regular,Account,Chat,Low,306,3,61.5,13,1,2,No,1
+T0234,26,26-35,Male,West,Regular,Account,Chat,High,241,6,5.2,8,2,4,No,1
+T0235,71,51+,Female,West,Enterprise,Billing,Web Form,High,306,21,84.8,5,1,1,Yes,1
+T0236,21,18-25,Male,East,Regular,Delivery,Web Form,Medium,422,3,1.0,6,3,5,No,1
+T0237,57,51+,Female,West,Regular,Account,Phone,Medium,89,12,84.8,15,5,1,No,1
+T0238,52,51+,Male,East,Regular,Account,Chat,High,347,16,3.5,6,1,4,No,1
+T0239,23,18-25,Male,South,Regular,Delivery,Email,High,331,5,81.0,14,1,1,No,1
+T0240,21,18-25,Female,North,Regular,Software,Phone,Medium,330,13,33.2,10,1,5,No,1
+T0241,41,36-50,Male,West,Regular,Billing,Chat,Low,304,6,17.2,4,5,4,No,1
+T0242,67,51+,Male,West,Premium,Delivery,Web Form,Medium,11,23,78.7,5,5,4,No,1
+T0243,18,18-25,Female,East,Regular,Delivery,Email,Medium,370,13,51.1,6,2,1,No,1
+T0244,32,26-35,Male,East,Premium,Account,Email,Medium,21,12,72.7,2,2,1,No,1
+T0245,31,26-35,Female,South,New,Software,Phone,Low,78,6,65.9,0,2,1,No,1
+T0246,19,18-25,Female,West,Premium,Delivery,Email,Medium,19,7,86.0,8,5,4,No,1
+T0247,56,51+,Male,West,New,Billing,Phone,Low,383,4,94.0,10,1,1,No,1
+T0248,34,26-35,Female,South,Regular,Software,Web Form,Medium,83,18,37.9,2,3,5,No,1
+T0249,30,26-35,Male,East,Premium,Delivery,Email,Low,,23,39.9,8,2,3,No,1
+T0250,21,18-25,Female,West,Regular,Software,Email,Medium,94,5,87.0,12,5,3,Yes,1
+T0251,46,36-50,Male,South,Regular,Software,Email,Low,298,11,58.3,2,2,2,No,1
+T0252,23,18-25,Female,South,Premium,Hardware,Web Form,Low,81,19,68.2,8,1,2,No,1
+T0253,37,36-50,Female,West,Premium,Delivery,Chat,Medium,86,11,78.5,14,4,3,No,1
+T0254,47,36-50,Male,East,Regular,Account,Chat,Low,81,11,49.1,6,3,4,No,1
+T0255,27,26-35,Male,West,Regular,Account,Phone,Medium,305,24,70.4,15,4,4,No,1
+T0256,49,36-50,Female,North,Regular,Billing,Phone,High,81,3,57.0,14,3,2,No,1
+T0257,53,51+,Male,West,New,Account,Phone,Medium,299,4,21.7,5,1,5,No,1
+T0258,53,51+,Male,West,Regular,Account,Email,Medium,388,23,39.3,10,5,3,Yes,1
+T0259,34,26-35,Female,South,New,Billing,Phone,Medium,69,14,28.9,6,5,3,Yes,1
+T0260,23,18-25,Female,West,New,Account,Web Form,High,192,7,35.7,0,3,3,Yes,1
+T0261,59,51+,Male,East,Regular,Delivery,Web Form,High,83,1,57.3,3,3,5,No,0
+T0262,47,36-50,Female,North,Premium,Software,Email,Medium,56,24,7.2,10,1,5,No,0
+T0263,50,36-50,Male,North,Premium,Software,Phone,Medium,305,18,47.6,13,1,1,No,1
+T0264,29,26-35,Female,West,New,Billing,Chat,Medium,261,17,22.5,0,4,1,No,1
+T0265,29,26-35,Female,North,Regular,Billing,Phone,Medium,46,16,22.2,6,5,5,No,0
+T0266,38,36-50,Female,East,New,Software,Email,Low,232,24,36.0,1,4,4,No,1
+T0267,69,51+,Male,South,Premium,Delivery,Chat,Low,109,21,85.9,8,3,2,No,1
+T0268,67,51+,Female,East,Premium,Delivery,Web Form,Low,128,22,15.6,9,4,2,Yes,1
+T0269,70,51+,Female,West,Regular,Software,Phone,Low,320,7,74.4,4,5,2,Yes,1
+T0270,58,51+,Female,West,New,Hardware,Chat,High,313,5,69.5,9,2,2,No,1
+T0271,51,51+,Male,East,Regular,Hardware,Email,Medium,252,2,52.8,1,2,2,Yes,1
+T0272,44,36-50,Female,East,Enterprise,Billing,Email,Medium,210,11,48.2,1,3,5,No,1
+T0273,40,36-50,Male,South,New,Billing,Phone,Medium,186,22,31.3,8,5,3,No,1
+T0274,34,26-35,Male,North,Regular,Delivery,Phone,Low,281,18,10.7,9,4,3,No,1
+T0275,50,36-50,Female,South,Regular,Account,Phone,High,301,19,65.5,3,2,3,No,1
+T0276,55,51+,Male,South,Regular,Software,Phone,Medium,254,3,59.0,8,4,2,Yes,1
+T0277,33,26-35,Female,South,Regular,Hardware,Web Form,High,151,9,47.0,12,4,1,No,1
+T0278,40,36-50,Female,South,New,Billing,Web Form,Medium,310,8,71.4,2,2,1,Yes,1
+T0279,48,36-50,Male,North,Regular,Billing,Phone,Low,468,24,83.7,10,3,2,No,1
+T0280,40,36-50,Female,East,New,Hardware,Email,High,255,5,35.3,2,2,2,Yes,1
+T0281,46,36-50,Male,North,New,Billing,Chat,Low,103,9,65.2,10,3,1,Yes,1
+T0282,33,26-35,Female,South,Regular,Software,Phone,Medium,175,2,66.1,14,4,3,Yes,1
+T0283,18,18-25,Male,East,New,Hardware,Web Form,Medium,377,19,66.9,4,1,1,No,1
+T0284,69,51+,Male,East,New,Hardware,Chat,Low,91,3,89.0,7,5,3,No,1
+T0285,48,36-50,Female,West,New,Delivery,Chat,Low,9,15,30.2,4,4,4,Yes,1
+T0286,42,36-50,Female,West,Regular,Account,Email,High,449,15,24.1,15,4,1,No,1
+T0287,33,26-35,Female,East,Regular,Billing,Email,Medium,413,7,9.1,5,4,4,No,1
+T0288,70,51+,Male,West,Premium,Software,Email,Medium,34,13,6.0,15,4,3,No,1
+T0289,36,36-50,Male,West,Regular,Hardware,Phone,Low,408,2,50.3,15,4,1,No,1
+T0290,45,36-50,Female,South,New,Billing,Email,High,407,19,19.1,9,5,4,No,1
+T0291,44,36-50,Male,East,New,Software,Chat,Medium,37,5,77.7,8,3,2,No,1
+T0292,24,18-25,Male,West,New,Hardware,Web Form,Low,37,21,87.1,10,5,2,No,1
+T0293,66,51+,Male,West,Regular,Account,Chat,Medium,77,15,82.7,3,5,5,Yes,1
+T0294,67,51+,Female,North,Regular,Account,Email,Low,301,21,42.3,6,2,4,No,1
+T0295,26,26-35,Female,West,Premium,Delivery,Chat,Low,268,17,5.3,4,4,5,No,1
+T0296,32,26-35,Male,North,New,Billing,Email,Low,254,21,59.5,2,4,4,No,1
+T0297,28,26-35,Male,West,New,Account,Phone,Low,408,14,92.5,2,5,3,No,1
+T0298,64,51+,Female,East,Regular,Hardware,Chat,Medium,384,8,39.1,12,4,2,No,1
+T0299,52,51+,Female,East,Enterprise,Account,Chat,Medium,246,2,13.6,11,2,4,No,1
+T0300,52,51+,Male,West,New,Hardware,Chat,Medium,177,3,95.8,10,4,5,Yes,1
+T0301,44,36-50,Female,North,Premium,Billing,Chat,Medium,288,17,56.0,0,3,1,No,1
+T0302,55,51+,Male,North,Regular,Billing,Phone,Low,340,15,32.3,8,3,4,No,1
+T0303,34,26-35,Female,South,Regular,Hardware,Phone,Medium,15,12,64.5,4,4,5,No,1
+T0304,23,18-25,Female,North,New,Account,Chat,Medium,52,11,52.1,9,1,5,No,1
+T0305,39,36-50,Female,East,New,Billing,Web Form,Low,118,7,15.7,0,3,2,No,1
+T0306,67,51+,Female,South,Premium,Billing,Phone,Low,431,20,22.0,6,2,2,No,1
+T0307,59,51+,Male,East,Premium,Delivery,Email,High,343,8,19.9,4,3,3,No,1
+T0308,69,51+,Female,West,Regular,Delivery,Web Form,Low,442,3,81.2,2,5,5,Yes,1
+T0309,64,51+,Female,North,New,Billing,Chat,High,444,7,66.2,2,4,1,No,1
+T0310,44,36-50,Male,East,Regular,Delivery,Chat,Medium,22,16,35.9,7,1,3,No,1
+T0311,63,51+,Female,South,Premium,Delivery,Phone,Medium,235,24,12.1,11,5,1,No,1
+T0312,30,26-35,Female,South,Premium,Account,Phone,Low,148,1,42.1,11,1,2,No,1
+T0313,50,36-50,Male,South,New,Software,Web Form,Low,404,18,30.8,0,2,4,No,1
+T0314,24,18-25,Male,East,Regular,Software,Web Form,Low,316,16,74.7,2,5,2,No,1
+T0315,34,26-35,Male,West,Regular,Software,Chat,Medium,143,2,31.2,10,5,4,No,0
+T0316,52,51+,Male,South,New,Account,Web Form,Medium,9,21,24.8,0,5,5,No,0
+T0317,32,26-35,Male,South,Regular,Software,Web Form,High,430,14,28.1,2,4,5,Yes,1
+T0318,57,51+,Female,South,Enterprise,Delivery,Email,Low,421,17,75.7,14,4,1,No,1
+T0319,57,51+,Male,West,Premium,Account,Web Form,Low,127,6,46.3,6,1,1,Yes,1
+T0320,44,36-50,Female,South,Regular,Billing,Email,High,59,11,90.8,11,2,3,No,1
+T0321,38,36-50,Female,West,Regular,Delivery,Chat,High,85,21,89.3,8,4,5,No,1
+T0322,28,26-35,Female,West,Enterprise,Billing,Web Form,Low,289,16,26.9,3,2,3,No,1
+T0323,47,36-50,Female,East,Regular,Delivery,Email,Low,174,8,12.5,4,2,2,No,1
+T0324,61,51+,Male,East,Regular,Delivery,Chat,Low,167,10,65.6,11,3,3,No,1
+T0325,42,36-50,Male,East,New,Software,Chat,Low,123,22,13.1,15,2,4,No,1
+T0326,25,18-25,Female,South,Enterprise,Software,Phone,Medium,424,2,15.0,8,3,3,No,1
+T0327,18,18-25,Female,East,New,Software,Web Form,Medium,154,20,29.1,15,3,3,No,1
+T0328,43,36-50,Female,North,Enterprise,Software,Email,Low,403,4,89.5,6,1,1,No,1
+T0329,37,36-50,Male,West,Regular,Hardware,Phone,Low,323,3,70.5,3,3,2,Yes,1
+T0330,71,51+,Female,West,New,Account,Email,Medium,311,7,9.4,10,4,4,No,1
+T0331,20,18-25,Male,East,Regular,Hardware,Web Form,High,368,24,88.0,1,2,1,No,1
+T0332,51,51+,Female,West,Regular,Account,Web Form,High,430,11,53.4,0,5,5,Yes,1
+T0333,33,26-35,Male,South,Regular,Hardware,Web Form,High,218,10,15.5,11,2,1,No,1
+T0334,56,51+,Female,West,Regular,Billing,Phone,High,161,1,32.1,10,2,1,No,1
+T0335,38,36-50,Male,West,Regular,Account,Phone,High,84,21,79.4,11,3,2,No,1
+T0336,64,51+,Female,South,Regular,Account,Web Form,Low,460,13,9.6,4,3,4,No,1
+T0337,68,51+,Male,South,New,Software,Web Form,High,135,6,37.0,4,1,1,No,1
+T0338,33,26-35,Male,West,Regular,Software,Web Form,Low,107,2,70.7,0,5,2,No,1
+T0339,23,18-25,Male,North,New,Software,Phone,High,247,7,89.0,1,5,2,No,1
+T0340,46,36-50,Female,West,Premium,Billing,Phone,Medium,110,12,4.1,3,2,3,No,0
+T0341,45,36-50,Male,South,Regular,Hardware,Phone,High,469,10,3.3,4,2,4,No,1
+T0342,47,36-50,Male,North,Regular,Hardware,Chat,Low,474,19,77.4,7,3,3,Yes,1
+T0343,18,18-25,Female,East,Regular,Account,Chat,Medium,170,15,42.4,11,2,2,Yes,1
+T0344,66,51+,Female,South,Premium,Software,Chat,Medium,291,1,95.6,7,1,3,Yes,1
+T0345,21,18-25,Female,South,Regular,Account,Email,Medium,311,14,2.4,2,4,4,No,1
+T0346,54,51+,Male,West,Premium,Billing,Web Form,Medium,225,17,67.0,1,5,3,No,1
+T0347,43,36-50,Female,North,New,Software,Email,High,26,5,63.4,6,3,5,Yes,1
+T0348,23,18-25,Male,South,Regular,Hardware,Email,Medium,398,23,83.6,1,5,3,No,1
+T0349,59,51+,Female,South,Regular,Delivery,Phone,High,14,7,88.7,12,5,5,No,1
+T0350,64,51+,Male,East,New,Delivery,Chat,Medium,34,21,29.5,6,5,1,No,1

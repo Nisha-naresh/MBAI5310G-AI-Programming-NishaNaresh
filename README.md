@@ -9,13 +9,14 @@
 - **Instructor:** Zahra Atf
 
 ## Repository Overview
-This repository contains my weekly applied coding tasks and final project for MBAI 5310G. The work focuses on AI programming, machine learning, deep learning, NLP, model evaluation, GitHub-based documentation, and responsible AI reflection. The weekly assignments move from supervised classification (decision trees) to unsupervised learning (clustering), and the final project is a research proposal on explainable multimodal AI in healthcare.
+This repository contains my weekly applied coding tasks and final project for MBAI 5310G. The work focuses on AI programming, machine learning, deep learning, NLP, model evaluation, GitHub-based documentation, and responsible AI reflection. The weekly assignments move from supervised classification (decision trees) to unsupervised learning (clustering) and on to model evaluation and business interpretation, and the final project is a research proposal on explainable multimodal AI in healthcare.
 
 ## Weekly Assignments
 - **Week 02:** Bank customer churn prediction. Data preparation and a supervised classification workflow on the bank customer churn dataset.
 - **Week 03:** Bank customer churn prediction continued, with model comparison and classification outputs.
 - **Week 04:** Decision Tree classification, two business cases. **NovaMart Retail** predicts whether a product needs reordering before a stockout (target `Reorder_Needed`), and **PayFlow Business Solutions** predicts late invoice payments. Both use a `DecisionTreeClassifier` in scikit-learn with an 80/20 train and test split, and each includes a notebook, dataset, business report, and result charts (confusion matrix, feature importance, target distribution, train vs test).
 - **Week 05:** Supplier delay risk segmentation for **ProcurePro Office Supplies** using K-means clustering. An unsupervised workflow groups 360 purchase orders into three risk segments so procurement managers can prioritise high-risk orders, with PCA, elbow, scatter, and bar visualisations.
+- **Week 06:** Customer support escalation prediction. A supervised classification workflow on the customer support escalation dataset (`customer_support_escalation_dataset.csv`) that prepares and cleans the data, trains and evaluates a model, and interprets the main drivers of escalation for the business. The pipeline follows four stages: data preparation, model development, model evaluation, and business interpretation.
 
 ## Final Project
 **Explainable Multimodal AI for Clinical Prediction and Patient-Specific Medical Decision Support.**
@@ -23,7 +24,7 @@ This repository contains my weekly applied coding tasks and final project for MB
 The final project is a research proposal (paper) on multimodal AI for healthcare. In plain terms, it sets out a system that would look at several kinds of patient data at once (structured records, clinical notes, and medical images or signals), predict a clinical outcome such as deterioration, and then explain *why* it made that prediction for the individual patient. The proposal evaluates three things that are usually treated separately: predictive performance, the reliability of the explanations (faithfulness and stability), and whether the explanations actually help clinicians trust and use the result. It proposes an empirical, mixed-methods data-science study that would combine a computational strand (model building and technical evaluation) with a human-centered strand (a structured study of clinician trust). Full details, including background, problem statement, research gap, methodology, ethics, timeline, and references, are in the `Research Paper/` folder.
 
 ## Repository Structure
-- `assignment/`: weekly applied tasks (week-02 to week-05)
+- `assignment/`: weekly applied tasks (week-02 to week-06)
 - `Research Paper/`: final project proposal, paper, and documentation
 - `README.md`: this file
 
@@ -71,20 +72,25 @@ MBAI5310G-AI-Programming-NishaNaresh/
 │   │           ├── td_payflow.png
 │   │           └── tvt_payflow.png
 │   │
-│   └── week-05/
-│       ├── Readme.md
-│       └── procurepro_supplier_delay_risk/
-│           ├── procurepro_supplier_delay_risk.ipynb
-│           ├── ProcurePro_Segmentation_Report.pdf
-│           ├── procurepro_supplier_delay_risk_dataset/
-│           │   ├── procurepro_supplier_delay_risk_dataset.xlsx
-│           │   └── procurepro_supplier_delay_risk_business_plan.docx
-│           └── model_results/
-│               ├── bar_procurepro.png
-│               ├── elbow_procurepro.png
-│               ├── pca_procurepro.png
-│               ├── scatter_procurepro.png
-│               └── target_procurepro.png
+│   ├── week-05/
+│   │   ├── Readme.md
+│   │   └── procurepro_supplier_delay_risk/
+│   │       ├── procurepro_supplier_delay_risk.ipynb
+│   │       ├── ProcurePro_Segmentation_Report.pdf
+│   │       ├── procurepro_supplier_delay_risk_dataset/
+│   │       │   ├── procurepro_supplier_delay_risk_dataset.xlsx
+│   │       │   └── procurepro_supplier_delay_risk_business_plan.docx
+│   │       └── model_results/
+│   │           ├── bar_procurepro.png
+│   │           ├── elbow_procurepro.png
+│   │           ├── pca_procurepro.png
+│   │           ├── scatter_procurepro.png
+│   │           └── target_procurepro.png
+│   │
+│   └── week-06/
+│       ├── readme.md
+│       ├── Assignment 6_Nisha_Naresh.ipynb
+│       └── customer_support_escalation_dataset.csv
 │
 └── Research Paper/
     ├── Readme.md

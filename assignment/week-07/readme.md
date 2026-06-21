@@ -1,10 +1,13 @@
 # Applied Deep Learning: CNN Concepts
 
-**Course:** MBAI5310G AI Programming
-**Institution:** Ontario Tech University
-**Instructor:** Zahra Atf
-**Student:** Nisha Naresh (101008896)
-**Assignment:** Week 07
+## Student Information
+
+* **Name:** Nisha Naresh
+* **Student ID:** 101008896
+* **Course:** MBAI 5310G, AI Programming
+* **University:** Ontario Tech University
+* **Term:** Spring 2026
+* **Instructor:** Zahra Atf
 
 ## Overview
 

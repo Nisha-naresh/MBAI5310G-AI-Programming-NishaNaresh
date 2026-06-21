@@ -1,11 +1,13 @@
 
 # Week 08: NLP Pipeline and Text Classification
 
-**Course:** MBAI 5310G AI Programming
-**Institution:** Ontario Tech University
-**Instructor:** Zahra Atf
-**Student:** Nisha Naresh (101008896)
-
+## Student Information
+- **Name:** Nisha Naresh
+- **Student ID:** 101008896
+- **Course:** MBAI 5310G, AI Programming
+- **University:** Ontario Tech University
+- **Term:** Spring 2026
+- **Instructor:** Zahra Atf
 ## Business Problem
 
 SafeShield, an insurance provider, receives a steady stream of customer messages across email, chat, call transcripts, the mobile app, and the claims portal. Each message needs to reach the right team, since a water-damage claim, a request for a policy document, and a billing complaint are handled by completely different departments. Sorting these by hand is slow and inconsistent, and a misrouted urgent claim can sit unanswered for days.

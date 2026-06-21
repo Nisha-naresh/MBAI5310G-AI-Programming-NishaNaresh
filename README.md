@@ -9,7 +9,7 @@
 - **Instructor:** Zahra Atf
 
 ## Repository Overview
-This repository contains my weekly applied coding tasks and final project for MBAI 5310G. The work focuses on AI programming, machine learning, deep learning, NLP, model evaluation, GitHub-based documentation, and responsible AI reflection. The weekly assignments move from supervised classification (decision trees) to unsupervised learning (clustering), on to model evaluation and business interpretation, and into deep learning with convolutional neural networks, and the final project is a research proposal on explainable multimodal AI in healthcare.
+This repository contains my weekly applied coding tasks and final project for MBAI 5310G. The work focuses on AI programming, machine learning, deep learning, NLP, model evaluation, GitHub-based documentation, and responsible AI reflection. The weekly assignments move from supervised classification (decision trees) to unsupervised learning (clustering), on to model evaluation and business interpretation, into deep learning with convolutional neural networks, and into natural language processing and text classification, and the final project is a research proposal on explainable multimodal AI in healthcare.
 
 ## Weekly Assignments
 - **Week 02:** Bank customer churn prediction. Data preparation and a supervised classification workflow on the bank customer churn dataset.
@@ -18,6 +18,7 @@ This repository contains my weekly applied coding tasks and final project for MB
 - **Week 05:** Supplier delay risk segmentation for **ProcurePro Office Supplies** using K-means clustering. An unsupervised workflow groups 360 purchase orders into three risk segments so procurement managers can prioritise high-risk orders, with PCA, elbow, scatter, and bar visualisations.
 - **Week 06:** Customer support escalation prediction. A supervised classification workflow on the customer support escalation dataset (`customer_support_escalation_dataset.csv`) that prepares and cleans the data, trains and evaluates a model, and interprets the main drivers of escalation for the business. The pipeline follows four stages: data preparation, model development, model evaluation, and business interpretation.
 - **Week 07:** Applied Deep Learning, CNN concepts. A written conceptual review of convolutional neural networks based on the assigned reading, answering ten short-answer questions on image classification, dense versus convolutional layers, convolution and kernels, feature maps, weight sharing, ReLU, max pooling, the Fashion-MNIST `28 x 28 x 1` reshape, the training/validation/test split, and overfitting. The deliverable is a single PDF of the answers.
+- **Week 08:** NLP pipeline and text classification for **SafeShield Insurance**. A full Natural Language Processing workflow on 120 insurance customer messages (`NLP_Dataset_13_Insurance_Customer_Message.xlsx`) that predicts each message's `MessageCategory` so it can be routed to the correct team. The pipeline covers eight stages: load and inspect, text preprocessing (lowercase, punctuation removal, stopwords, tokenization, lemmatization), exploratory text analysis with a word-frequency chart, POS tagging and Named Entity Recognition with spaCy, TF-IDF feature extraction, a Multinomial Naive Bayes classifier, evaluation (accuracy, confusion matrix, classification report), and business interpretation.
 
 ## Final Project
 **Explainable Multimodal AI for Clinical Prediction and Patient-Specific Medical Decision Support.**
@@ -25,8 +26,8 @@ This repository contains my weekly applied coding tasks and final project for MB
 The final project is a research proposal (paper) on multimodal AI for healthcare. In plain terms, it sets out a system that would look at several kinds of patient data at once (structured records, clinical notes, and medical images or signals), predict a clinical outcome such as deterioration, and then explain *why* it made that prediction for the individual patient. The proposal evaluates three things that are usually treated separately: predictive performance, the reliability of the explanations (faithfulness and stability), and whether the explanations actually help clinicians trust and use the result. It proposes an empirical, mixed-methods data-science study that would combine a computational strand (model building and technical evaluation) with a human-centered strand (a structured study of clinician trust). Full details, including background, problem statement, research gap, methodology, ethics, timeline, and references, are in the `Research Paper/` folder.
 
 ## Repository Structure
-- `assignment/`: weekly applied tasks (week-02 to week-07)
-- `Research Paper/`: final project proposal, paper, and documentation
+- `assignment/`: weekly applied tasks (week-02 to week-08)
+- `Research Paper/`: final project proposal, paper, supporting data, and documentation
 - `README.md`: this file
 
 ```
@@ -93,12 +94,20 @@ MBAI5310G-AI-Programming-NishaNaresh/
 │   │   ├── Assignment 6_Nisha_Naresh.ipynb
 │   │   └── customer_support_escalation_dataset.csv
 │   │
-│   └── week-07/
+│   ├── week-07/
+│   │   ├── README.md
+│   │   └── Deep_Learning-CNN.pdf   (Conceptual Questions)
+│   │
+│   └── week-08/
 │       ├── README.md
-│       └── Deep_Learning-CNN.pdf(Conceptual Questions)
+│       ├── Assignment 8_Nisha_Naresh.ipynb
+│       └── NLP_Dataset_13_Insurance_Customer_Message.xlsx
 │
 └── Research Paper/
     ├── Readme.md
+    ├── data/
+    │   ├── research_dataset.csv      (icu_admission_sample_dataset.csv)
+    │   └── research_dataset.xlsx     (icu_multimodal_sample.xlsx)
     └── paper/
         └── Research_Proposal_Explainable_Multimodal_AI.docx   (the research paper)
 ```
@@ -107,8 +116,9 @@ MBAI5310G-AI-Programming-NishaNaresh/
 - Python
 - Jupyter Notebook / Google Colab
 - GitHub
-- scikit-learn (Decision Tree classification, K-means clustering)
+- scikit-learn (Decision Tree classification, K-means clustering, Naive Bayes, TF-IDF)
 - pandas and NumPy
+- NLTK and spaCy (text preprocessing, POS tagging, Named Entity Recognition)
 - matplotlib for visualisations
 - TensorFlow / Keras
 - Other libraries as needed
